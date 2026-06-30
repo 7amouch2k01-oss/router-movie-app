@@ -1,3 +1,4 @@
+// Seed movie data used to populate the app when it first loads.
 export const moviesData = [
   {
     id: 1,

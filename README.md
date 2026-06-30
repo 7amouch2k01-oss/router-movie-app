@@ -1,18 +1,29 @@
-# React + Vite
+# Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a small React movie application built with Vite. It lets users browse a collection of movies, filter them by title and rating, add new movies, and open a details page for each one.
 
-Currently, two official plugins are available:
+## How it works
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- The app starts from the main entry point in the src folder and renders the home route.
+- A shared movie context stores the movie list so different components can read and update it without passing props manually.
+- The home page shows:
+  - a form to add a new movie,
+  - a search input to filter movies by title,
+  - a rating filter to show only movies above a selected score,
+  - a grid of movie cards.
+- Each movie card includes a link to a details view where the user can see more information and a trailer.
 
-## React Compiler
+## Main folders
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- src/components: reusable UI components such as movie cards, search filters, and the add-movie form.
+- src/context: the global movie state provider.
+- src/data: the initial sample movie dataset.
+- src/pages: the home page and the movie details page.
 
-Note: This will impact Vite dev & build performances.
+## Run the app locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Install dependencies:
+   npm install
+2. Start the development server:
+   npm run dev
+3. Open the local URL shown in the terminal to view the app.

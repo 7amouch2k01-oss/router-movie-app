@@ -1,3 +1,4 @@
+// Rating control used both to show a movie's score and to filter the list by minimum rating.
 import { Flex, Rate } from "antd";
 const desc = [
   "terrible",

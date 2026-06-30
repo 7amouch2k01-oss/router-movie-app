@@ -1,3 +1,4 @@
+// Renders the list of movies after applying the current title and rating filters.
 import MovieCard from "../movieCard/MovieCard";
 import "./movieList.css";
 

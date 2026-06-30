@@ -1,3 +1,4 @@
+// Modal form used to create a new movie and add it to the current collection.
 import "./addMovie.css";
 
 import { useState } from "react";

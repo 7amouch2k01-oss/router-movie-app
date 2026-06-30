@@ -1,3 +1,5 @@
+// Main page of the movie app. It combines the filters, the add-movie form,
+// and the list of visible movies in one place.
 import { useState } from "react";
 import "./App.css";
 import MovieList from "./components/movieList/MovieList";

@@ -1,3 +1,4 @@
+// Search input that filters the visible movies by title.
 import "./filterByTitle.css";
 
 import Form from "react-bootstrap/Form";

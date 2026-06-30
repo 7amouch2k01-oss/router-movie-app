@@ -1,3 +1,5 @@
+// Entry point of the application. It mounts the React tree, enables routing,
+// and provides the movie context to the rest of the app.
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.min.css";

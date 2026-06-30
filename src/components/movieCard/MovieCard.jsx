@@ -1,3 +1,4 @@
+// Displays one movie as a Bootstrap card with a poster, rating, and a link to its details page.
 import "./movieCard.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';

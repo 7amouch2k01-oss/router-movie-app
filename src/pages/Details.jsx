@@ -1,3 +1,5 @@
+// Movie details page. It reads the route parameter, finds the matching movie,
+// and displays its description and trailer in a dedicated view.
 import { useNavigate, useParams } from "react-router-dom";
 // import { moviesData } from "../data/moviesData.js";
 
